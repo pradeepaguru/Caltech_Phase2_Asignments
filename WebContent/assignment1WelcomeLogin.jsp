@@ -9,6 +9,13 @@
 </head>
 <body>
 <h3>Fill the Below Details</h3>
+
+ <% if (request.getParameter("user") != "")
+	 out.println("<b>Welcome </b>"+request.getParameter("user"));
+ else
+	   out.println("<b>Welcome </b>" + pageContext.getAttribute("user")); 
+          %>
+          
 <% String name = request.getParameter("user");
  out.println(" Welcome"+ name  ); 
 %>

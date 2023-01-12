@@ -11,7 +11,7 @@
 <body>
 
 <h1 class="center">Student Page</h1>
-<a href= "assignment1.2login.jsp">Login</a><br>
-<a href= "assignment1.2register.jsp">Register</a>
+<a href= "assignment1.1_login.jsp">Login</a><br>
+<a href= "assignment1.1_register.jsp">Register</a>
 </body>
 </html>

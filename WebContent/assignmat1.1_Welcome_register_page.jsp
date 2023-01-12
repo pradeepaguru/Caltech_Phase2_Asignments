@@ -14,7 +14,8 @@ String password = request.getParameter("password");
 String age = request.getParameter("age");
 String branch = request.getParameter("branch");
 String adharcard = request.getParameter("card");
-pageContext.setAttribute("user", request.getParameter("user"));
+pageContext.setAttribute("userid", request.getParameter("user"));
+out.println("From Set Attribute" + pageContext.getAttribute("user"));
 
 %>
 

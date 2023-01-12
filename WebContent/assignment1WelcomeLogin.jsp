@@ -12,13 +12,11 @@
 
  <% if (request.getParameter("user") != "")
 	 out.println("<b>Welcome </b>"+request.getParameter("user"));
- else
-	   out.println("<b>Welcome </b>" + pageContext.getAttribute("user")); 
-          %>
+    else if ( pageContext.getAttribute("userid") != null)
+	   out.println("<b>Welcome </b>" + pageContext.getAttribute("userid")); 
+  %>
           
-<% String name = request.getParameter("user");
- out.println(" Welcome"+ name  ); 
-%>
+
 <br>
 <br>
 <form action="assignment1.1_dashboard.jsp" method="post">

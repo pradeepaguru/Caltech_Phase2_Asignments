@@ -9,3 +9,6 @@ click -> login ->login.jsp with header.jsp as title click login -> welcomelogin.
 
 click -> register ->register.jsp with header.jsp as title click login ->login.jsp----> welcomelogin.jsp enter marks ----> dasboard.jsp
 
+assignment_employeeSalarayC_tag -> Core tag assignment
+
+assignment_employee_xmtagl -> Xml tag assignment
